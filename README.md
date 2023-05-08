@@ -18,7 +18,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 ### Como rodar o projeto?
 
 Após clone do projeto, abrir terminal na pasta raiz e executar:
-`yarn`
+`yarn` e `cd ./service && yarn`
 para a instalação da pasta node_modules e suas dependências;
 
 Depois de instalado executar `yarn dev` para executar o projeto em modo DEV local. Não precisa executar nem um comando adicional, o backend e o frontend já estaram disponíveis em modo de desenvolvimento.
