@@ -4,9 +4,9 @@
 
 ### Tecnologias utilizadas
  - [Vue 3](https://vuejs.org/guide/quick-start.html) com [Typescript](https://www.typescriptlang.org/);
- - [Vuex 4](https://vuex.vuejs.org/)
+ - [Vuex 4](https://vuex.vuejs.org/);
  - CSS: BEM CSS - com Sass/Scss;
- - E algumas libs.
+ - E algumas libs;
 
 ### Pré-requisitos
 
