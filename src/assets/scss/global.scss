@@ -1,0 +1,13 @@
+@import "./variables";
+
+@import "./utils/reset";
+@import "./utils/normalize";
+@import "./utils/container";
+
+
+#app, body {
+    font-family: $font-family-01;
+    color: $color-text-primary;
+    background-color: $color-ui-background-light-green;
+  }
+  

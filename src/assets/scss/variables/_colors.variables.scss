@@ -1,0 +1,31 @@
+// Colors
+$color-brand-primary: #6AD68E;
+$color-brand-secondary: #aaaaaa;
+
+$color-ui-light-gray: #DEDEDE;
+$color-ui-normal-gray: #989898;
+$color-ui-dark-gray: #3E403F;
+
+$color-text-primary: #303030;
+$color-text-secondary: #a8a8a8;
+
+$color-ui-info: #0084F4;
+$color-ui-danger: #FF647C;
+$color-ui-warning: #F9E476;
+$color-ui-success: #9FDAAF;
+$color-ui-alert: #FFA26B;
+$color-ui-desable: $color-ui-light-gray;
+
+$color-ui-white: #fff;
+$color-ui-black: #000;
+$color-ui-gray: #686868;
+
+$color-ui-logo: $color-brand-primary; 
+$color-ui-background-default: $color-ui-white;
+$color-ui-background-normal-green: #BCF3D2;
+$color-ui-background-light-green: #FAFFFB;
+
+:export {
+    color-ui-white: $color-ui-white;
+    colorBrandSecondary: $color-brand-secondary;
+}
