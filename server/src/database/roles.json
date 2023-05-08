@@ -1,0 +1,66 @@
+{
+    "roles": [
+        {
+            "id": 1,
+            "name": "Administrador do Sistema",
+            "role": "admin",
+            "prefixForUser": {
+                "male": "Sr.",
+                "female": "Sra."
+            },
+            "routesPermission": ["PATIENTS", "USERS", "ROLES"],
+            "actions": [
+              "USERS_VIEW",
+              "USERS_CREATE",
+              "USERS_EDIT",
+              "USERS_DELETE",
+              "ROLES_VIEW",
+              "ROLES_CREATE",
+              "ROLES_EDIT",
+              "ROLES_DELETE",
+              "PATIENTS_VIEW",
+              "PATIENTS_CREATE",
+              "PATIENTS_EDIT",
+              "PATIENTS_DELETE"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Médico(a)",
+            "prefixForUser": {
+                "male": "Dr.",
+                "female": "Dra."
+            },
+            "routesPermission": ["PATIENTS"],
+            "actions": [
+              "PATIENTS_VIEW",
+              "PATIENTS_CREATE",
+              "PATIENTS_EDIT"
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Enfermeiro(a)",
+            "prefixForUser": {
+                "male": "Enf.",
+                "female": "Enfa."
+            },
+            "role": "enfermeiro",
+            "routesPermission": ["PATIENTS", "USERS", "ROLES"],
+            "actions": [
+              "USERS_VIEW",
+              "USERS_CREATE",
+              "USERS_EDIT",
+              "USERS_DELETE",
+              "ROLES_VIEW",
+              "ROLES_CREATE",
+              "ROLES_EDIT",
+              "ROLES_DELETE",
+              "PATIENTS_VIEW",
+              "PATIENTS_CREATE",
+              "PATIENTS_EDIT",
+              "PATIENTS_DELETE"
+            ]
+        }
+    ]
+}

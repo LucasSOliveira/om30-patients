@@ -1,0 +1,23 @@
+{
+  "name": "server-api",
+  "version": "1.0.0",
+  "description": "OM30 - API Server",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "json-server --watch ./database.json",
+    "serve": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Lucas Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.18.2",
+    "json-server": "^0.16.3",
+    "jsonwebtoken": "^8.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

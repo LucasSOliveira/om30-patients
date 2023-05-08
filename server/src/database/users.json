@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@mail.com",
+      "password": "Admin@01",
+      "gender": "male",
+      "roleId": 1
+    },
+    {
+      "id": 2,
+      "name": "Lucas Oliveira",
+      "email": "lucas@mail.com",
+      "password": "lucas@01",
+      "gender": "male",
+      "roleId": 2
+    },
+    {
+      "id": 3,
+      "name": "Larissa França",
+      "email": "larissa@mail.com",
+      "password": "larissa@01",
+      "gender": "female",
+      "roleId": 2
+    }
+  ]
+}
