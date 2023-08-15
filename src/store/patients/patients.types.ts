@@ -65,7 +65,7 @@ export enum ActionTypes {
     setZipcodeData = 'SET_ZIPCODE_DATA',
     clearPatients = 'CLEAR_PATIENTS',
     clearPatient = 'CLEAR_PATIENT',
-  }
+}
 
 export type SetPatientsCommitActionContext = {
     commit<k extends keyof Mutations>(
